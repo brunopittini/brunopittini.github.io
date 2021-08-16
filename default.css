@@ -1,0 +1,82 @@
+html, body {
+	margin: 0;
+	padding: 0;
+  	width: 100%;
+	/*background-color: #eaeaea;*/
+	background-color: #f9f9f9
+}
+
+body {
+  	font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-size: 3.5vh;
+	line-height: 125%;
+  	color: #455565;
+	display: flex;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #ccc;
+	display: block;
+	margin: auto;
+	padding: 0;
+}
+
+a {
+	color: #3271A7;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #888;
+  	text-decoration: underline;
+}
+
+pre {
+	font-family: Courier, 'Courier New', monospace
+}
+
+/* Most of outer, middle, and bodyWindow CSS is for vertical centering" */
+#outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#bodyWindow {
+	margin: auto;
+	text-align: center;
+	align-content: center;
+
+	background-color: #f9f9f9;
+	max-width: 750px;
+	width: 90%;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+#connect
+{
+  	text-align: center;
+	line-height: 200%;
+	width: 100%;
+}
+
+#connect ul
+{
+	padding: 0;
+}
+
+#connect li
+{
+  	display: inline;
+	padding-left: 16px;
+	padding-right: 16px;
+}
